@@ -31,7 +31,7 @@ brew tap
 To deploy the datamodel for this example, run the following command:
 
 ```
-prisma deploy
+prisma1 deploy
 ```
 
 ### 5. Run the script

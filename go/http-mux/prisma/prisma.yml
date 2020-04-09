@@ -12,7 +12,7 @@ generate:
 # Ensures Prisma client is re-generated after a datamodel change.
 hooks:
   post-deploy:
-    - prisma generate
+    - prisma1 generate
 
 # Seeds initial data into the database by running a script.
 seed:

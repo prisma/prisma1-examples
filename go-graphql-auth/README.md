@@ -9,7 +9,7 @@ This example demonstrates how to implement a **GraphQL server with an email-pass
 You need to have the Prisma CLI installed on your machine to run this example. If you don't have it yet, execute the following command to install it globally on your machine:
 
 ```
-npm install -g prisma
+npm install -g prisma1
 # or `yarn global add prisma`
 ```
 
@@ -42,7 +42,7 @@ Navigate into the `prisma` directory and deploy the Prisma API:
 
 ```
 cd prisma
-prisma deploy
+prisma1 deploy
 ```
 
 <details>
@@ -53,7 +53,7 @@ To deploy your service to a demo server (rather than locally with Docker), follo
 - Run the following command:
   ```
   cd prisma
-  prisma deploy --new
+  prisma1 deploy --new
   ```
 - In the interactive CLI wizard:
   - Select the **Demo server**

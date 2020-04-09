@@ -59,5 +59,5 @@ Here is a description of the performed steps that are expected to happen (compar
 2.  We confirm that the Docker setup is correct with `docker ps`.
 3.  We install the `npm` dependencies with `npm install`.
 4.  We sleep 20 seconds to allow for the two Docker containers to finish their setup.
-5.  We run `prisma deploy` with the locally installed version of Prisma. This will set up a new service `circleci` at stage `test` and seed some data according to `prisma.yml`.
+5.  We run `prisma1 deploy` with the locally installed version of Prisma. This will set up a new service `circleci` at stage `test` and seed some data according to `prisma.yml`.
 6.  We run a short jest test where we fetch all users from the prisma server using prisma-client
