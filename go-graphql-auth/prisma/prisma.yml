@@ -2,7 +2,7 @@ endpoint: http://localhost:4466
 datamodel: datamodel.prisma
 hooks:
   post-deploy:
-    - prisma generate
+    - prisma1 generate
 generate:
   - generator: go-client
     output: ../prisma-client/

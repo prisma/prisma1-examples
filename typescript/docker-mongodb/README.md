@@ -34,7 +34,7 @@ docker-compose up -d
 To run the example, you need the Prisma CLI. Please install it via NPM or [using another method](https://www.prisma.io/docs/prisma-cli-and-configuration/using-the-prisma-cli-alx4/#installation):
 
 ```
-npm install -g prisma
+npm install -g prisma1
 ```
 
 ### 4. Set up database & deploy Prisma datamodel
@@ -42,7 +42,7 @@ npm install -g prisma
 To deploy the datamodel for this example, run the following command:
 
 ```
-prisma deploy
+prisma1 deploy
 ```
 
 ### 5. Run the script

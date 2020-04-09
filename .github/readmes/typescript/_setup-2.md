@@ -6,7 +6,7 @@ npm install
 To run the example, you need the Prisma CLI. Please install it via NPM or [using another method](https://www.prisma.io/docs/prisma-cli-and-configuration/using-the-prisma-cli-alx4/#installation):
 
 ```
-npm install -g prisma
+npm install -g prisma1
 ```
 
 ### 3. Set up database & deploy Prisma datamodel
@@ -14,7 +14,7 @@ npm install -g prisma
 For this example, you'll use a free _demo database_ (AWS Aurora) hosted in Prisma Cloud. To set up your database, run:
 
 ```
-prisma deploy
+prisma1 deploy
 ```
 
 Then, follow these steps in the interactive CLI wizard:
@@ -59,7 +59,7 @@ Then, follow these steps in the interactive CLI wizard:
     ```
 1. Run `docker-compose up -d`
 1. Set the `endpoint` in `prisma.yml` to `http://localhost:4466`
-1. Run `prisma deploy`
+1. Run `prisma1 deploy`
 
 </details>
 
